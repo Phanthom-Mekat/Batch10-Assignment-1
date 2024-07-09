@@ -63,3 +63,109 @@
     margin: 35px auto;
 
 }
+
+
+
+/* why web deb styles */
+
+.webDevWhy{
+  background: rgba(13, 19, 33, 0.02);
+  border-radius: 16px;
+  padding: 50px 20px;
+  margin: 50px 200px;
+  width: 1500px;
+  align-items: center;
+
+
+}
+
+.webDevWhyHeader{
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.paraStyle{
+  color: rgb(13, 19, 33);
+  opacity: 0.7;
+  font-size: 16px;
+  width: 1100px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.webDevWhyPara{
+  color: rgb(13, 19, 33);
+  opacity: 0.7;
+  font-size: 16px;
+  width: 1100px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  margin-top: 24px;
+}
+
+.webDevMotivation{
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 97px;
+  border-radius: 16px;
+  background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0.291) 100%);
+  padding: 60px 60px;
+  margin-bottom: 32px;
+}
+
+.webDevMotivationHeader{
+  color: rgba(13, 19, 33, 0.7);
+  width: 400px;
+  margin: 16px 0px 16px 0px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.webDevMotivationPara{
+  width: 600px;
+}
+.btn{
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 1);
+  opacity: 0.7;
+  margin: 32px 0px;
+  padding: 12px 20px 12px 20px;
+}
+.btn:hover{
+  background: rgba(13, 19, 33, 1);
+  color: white;
+}
+.buttonText{
+
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 0px 10px;
+
+}
+
+.webDevMotivation1{
+  display: flex;
+  /* justify-content: space-between; */
+  margin: 80px 107px;
+  border-radius: 16px;
+  background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0.291) 100%);
+  padding: 60px 60px;
+  margin-bottom: 32px;
+}
+
+.webDevContent{
+  margin-left: 90px;
+}
+
