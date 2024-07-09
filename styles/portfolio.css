@@ -1,0 +1,65 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header section styles */
+.headerSection{
+    background: url(../assets/Hero-bg.png);
+    background-size: cover; 
+    
+    height: 100vh;
+}
+
+/* font added */
+.azeret-mono-continue {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .headerSection img{
+    display: flex;
+    margin: 25px auto;
+    padding: 20px;
+  }
+  .headerSection .portfolioHeader {
+    color: rgb(13, 19, 33);
+    width: 998px;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 20px auto;
+
+  }
+
+.headerSection .headerPara{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    width: 892px;
+    margin: 20px auto;
+}
+.headerSection .contactMeButton{
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: white;
+    border: none;
+    padding: 21px 24px 21px 24px;
+    margin: 32px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    display: block;
+    margin: 35px auto;
+
+}
