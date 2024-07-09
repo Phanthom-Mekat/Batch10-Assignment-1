@@ -169,3 +169,29 @@
   margin-left: 90px;
 }
 
+
+
+/* my inspiration section styles */
+
+
+.inspirationHeader{
+  margin-top: 90px;
+}
+
+.iframediv{
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  width: 1500px;
+  height: 814px;
+  margin: 0 auto;
+}
+.inspirationSection iframe{
+  border-radius: 16px;
+  width: 1400px;
+  
+  margin: 35px;
+  height: 740px;
+}
