@@ -12,7 +12,7 @@ html {
     background: url(../assets/Hero-bg.png);
     background-size: cover; 
     
-    height: 100vh;
+    height: 75vh;
 }
 
 /* font added */
@@ -65,6 +65,12 @@ html {
     margin: 35px auto;
     cursor: pointer;
 
+}
+.headerSection .contactMeButton:hover{
+    background: rgba(30, 9, 114, 0.615);
+    color: white;
+    transition: 1s;
+    border-radius: 30px;
 }
 .headerContent a{
     text-decoration: none;
@@ -146,10 +152,13 @@ html {
   opacity: 0.7;
   margin: 32px 0px;
   padding: 12px 20px 12px 20px;
+  cursor: pointer;
 }
 .btn:hover{
   background: rgba(13, 19, 33, 1);
   color: white;
+  transition: .5s;
+
 }
 .buttonText{
 
@@ -361,4 +370,35 @@ footer{
 }
 .social a{
   margin-left: 24px;
+}
+
+
+header{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 150px;
+
+}
+header button{
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+  padding: 17px 24px 17px 24px;
+  cursor: pointer;
+}
+header button p{
+  color: rgb(13, 19, 33);
+
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+header button:hover{
+  background: rgb(238, 245, 222);
+  color: white;
+  border-radius: 30px;
+  transition: 2s;
 }
