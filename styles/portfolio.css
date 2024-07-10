@@ -55,7 +55,6 @@ html {
     color: white;
     border: none;
     padding: 21px 24px 21px 24px;
-    margin: 32px 0px;
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
@@ -64,13 +63,14 @@ html {
     display: block;
     margin: 35px auto;
     cursor: pointer;
+    filter: drop-shadow(10px 10px 5px hwb(0 13% 87% / 0.331))
 
 }
 .headerSection .contactMeButton:hover{
-    background: rgba(30, 9, 114, 0.615);
-    color: white;
+    background: linear-gradient(90deg, rgba(0,79,29,1) 0%, rgba(71,121,9,1) 42%, rgba(8,111,107,1) 100%);
+    color: rgb(255, 255, 255);
     transition: 1s;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 .headerContent a{
     text-decoration: none;
@@ -130,6 +130,7 @@ html {
   background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0.291) 100%);
   padding: 60px 60px;
   margin-bottom: 32px;
+  filter: drop-shadow(10px 10px 5px hwb(0 13% 87% / 0.107)) /* optional for fun */
 }
 
 .webDevMotivationHeader{
@@ -153,6 +154,7 @@ html {
   margin: 32px 0px;
   padding: 12px 20px 12px 20px;
   cursor: pointer;
+  
 }
 .btn:hover{
   background: rgba(13, 19, 33, 1);
@@ -179,6 +181,7 @@ html {
   background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0.291) 100%);
   padding: 60px 60px;
   margin-bottom: 32px;
+  filter: drop-shadow(10px 10px 5px hwb(0 13% 87% / 0.107))
 }
 
 .webDevContent{
@@ -210,6 +213,7 @@ html {
   
   margin: 35px;
   height: 740px;
+  filter: drop-shadow(10px 10px 5px hwb(0 13% 87% / 0.447))
 }
 
 
@@ -272,7 +276,7 @@ html {
   display: flex;
   align-items: center;
   margin: 80px 0px;
-
+  filter: drop-shadow(10px 10px 5px hwb(0 13% 87% / 0.107))
 }
 .supportcontent{
   margin: 0px 24px;
@@ -370,6 +374,7 @@ footer{
 }
 .social a{
   margin-left: 24px;
+  filter: drop-shadow(10px 10px 5px hwb(0 13% 87% / 0.315))
 }
 
 
@@ -386,6 +391,7 @@ header button{
   opacity: 0.8;
   padding: 17px 24px 17px 24px;
   cursor: pointer;
+  filter: drop-shadow(10px 10px 5px hwb(0 13% 87% / 0.124))
 }
 header button p{
   color: rgb(13, 19, 33);
@@ -401,4 +407,44 @@ header button:hover{
   color: white;
   border-radius: 30px;
   transition: 2s;
+}
+
+/* next target styles */
+
+
+.nextTargetContent a{
+  text-decoration: underline;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+
+}
+.nextTargetContent P{
+  margin-bottom: 24px;
+}
+
+.nextTargetContent{
+  margin:49px 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.nextTargetContent1{
+  margin: 24px 24px;
+  padding: 40px;
+  width: 1540px;
+  height: 289px;
+  display: flex;
+  justify-content: left;
+  box-sizing: border-box;
+  border: 2px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  filter: drop-shadow(10px 10px 5px hwb(0 13% 87% / 0.107))
+}
+.nextTargetContent1 img{
+  margin:15px 40px;
+  width: 100px;
 }
